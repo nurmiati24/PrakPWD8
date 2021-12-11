@@ -16,9 +16,9 @@
     $pdf->SetFont('Arial','B',10);
     $pdf->Cell(20,6,'NIM',1,0);
     $pdf->Cell(50,6,'NAMA MAHASISWA',1,0);
-    $pdf->Cell(25,6,'J KEL',1,0);
+    $pdf->Cell(25,6,'J KELAMIN',1,0);
     $pdf->Cell(50,6,'ALAMAT',1,0);
-    $pdf->Cell(30,6,'TANGGAL LHR',1,1);
+    $pdf->Cell(30,6,'TGL LAHIR',1,1);
     $pdf->SetFont('Arial','',10);
     
     include 'koneksi.php';
